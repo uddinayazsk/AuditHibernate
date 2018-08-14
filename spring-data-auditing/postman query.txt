@@ -1,0 +1,18 @@
+POST http://localhost:8888/addEmployee
+
+{
+	"userid":"user1",
+	"employee":{
+		"name":"Perkin1",
+		"doj":"01/01/2018",
+		"dept":"dev1",
+		"salary":8000
+	}
+}
+
+
+PUT update salary http://localhost:8888/updateEmployee/2/11000
+{
+	"userid":"user2"
+}
+
